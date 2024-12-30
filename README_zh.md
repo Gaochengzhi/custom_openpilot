@@ -5,21 +5,9 @@
 本项目将 openpilot 系统从模拟环境迁移到真实车辆环境。
 不同于原版 openpilot 仅支持特定品牌和型号的车辆，通过自定义传感器接入和控制接口的[中间层](./bridge/metadrive/middleware.py)，我们可以将 openpilot 作为后端扩展到任意类型的车辆上，并提供了丰富灵活的定制方式
 
-
-<div style="display: flex; justify-content: space-between;">
-    <div style="width: 32%; text-align: center;">
-        <div style="font-size: 1.5rem; font-weight: bold;">直线行驶</div>
-        <img src="./.assets/demo.gif" style="width: 100%;">
-    </div>
-    <div style="width: 32%; text-align: center;">
-        <div style="font-size: 1.5rem; font-weight: bold;">大角度转向</div>
-        <img src="./.assets/turn.gif" style="width: 100%;">
-    </div>
-    <div style="width: 32%; text-align: center;">
-        <div style="font-size: 1.5rem; font-weight: bold;">行人避障</div>
-        <img src="./.assets/walk.gif" style="width: 100%;">
-    </div>
-</div>
+| <div style="text-align: center;">**Straight Driving**</div> | <div style="text-align: center;">**Sharp Turning**</div> | <div style="text-align: center;">**Pedestrian Avoidance**</div> |
+| ----------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------- |
+| <img src="./.assets/demo.gif" style="width: 33vw;">         | <img src="./.assets/turn.gif" style="width: 33vw;">      | <img src="./.assets/walk.gif" style="width: 33vw;">             |
 
 
 ## 快速开始

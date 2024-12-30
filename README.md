@@ -3,20 +3,9 @@
 ## Introduction
 This project migrates the openpilot system from a simulated environment to a real vehicle environment. Unlike the original openpilot, which only supports specific brands and models of vehicles, by customizing the sensor integration and control interface [middleware](./bridge/metadrive/middleware.py), we can extend openpilot as a backend to **ANY** type of vehicle, offering rich and flexible customization options.
 
-<div style="display: flex; justify-content: space-between;">
-    <div style="width: 32%; text-align: center;">
-        <div style="font-size: 1.5rem; font-weight: bold;">Straight Driving</div>
-        <img src="./.assets/demo.gif" style="width: 100%;">
-    </div>
-    <div style="width: 32%; text-align: center;">
-        <div style="font-size: 1.5rem; font-weight: bold;">Sharp Turning</div>
-        <img src="./.assets/turn.gif" style="width: 100%;">
-    </div>
-    <div style="width: 32%; text-align: center;">
-        <div style="font-size: 1.5rem; font-weight: bold;">Pedestrian Avoidance</div>
-        <img src="./.assets/walk.gif" style="width: 100%;">
-    </div>
-</div>
+| <div style="text-align: center;">**Straight Driving**</div> | <div style="text-align: center;">**Sharp Turning**</div> | <div style="text-align: center;">**Pedestrian Avoidance**</div> |
+| ----------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------- |
+| <img src="./.assets/demo.gif" style="width: 33vw;">         | <img src="./.assets/turn.gif" style="width: 33vw;">      | <img src="./.assets/walk.gif" style="width: 33vw;">             |  |
 
 ## Quick Start
 
